@@ -92,7 +92,7 @@ function sendMessage() {
     }
 
     const apiKey = '7fda40fb0172b0a4df1c81a85ed782b6';
-    const endpoint = 'https://spark-api-open.xf-yun.com/v1/chat/completions';
+    const endpoint = 'wss://spark-api.xf-yun.com/v3.5/chat';
 
     const payload = {
         model: "Spark Max",
